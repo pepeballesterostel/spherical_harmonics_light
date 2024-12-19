@@ -10,6 +10,6 @@ The 3D model example can be downloaded for free [here](https://www.turbosquid.co
 
 
 <p align="center">
-  <img src="https://github.com/pepeballesterostel/Light-Direction-plotter/blob/main/tintoretto.png" width="700" />
+  <img src="https://github.com/pepeballesterostel/spherical_harmonics_light/static/img.png" width="700" />
 </p>
 
