@@ -1,0 +1,29 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: visible; /* Make sure GUI is accessible */
+}
+
+/* Target canvas elements within the body */
+body > canvas {
+    border: none; 
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 1; 
+}
+
+#my-gui-container {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 100; /* Above the canvas layer */
+    background-color: rgba(73, 73, 73, 0.85); /* Background for better visibility */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow to make GUI stand out */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rendering Shadow Algorithms in Paintings</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Ensure GUI and canvas are not affected by scrolling */
+        }
+
+        canvas {
+            display: block; /* Ensure canvas is properly displayed */
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw; /* Viewport width */
+            height: 100vh; /* Viewport height */
+            z-index: 0; /* Ensure canvas stays at the back */
+        }
+
+        #my-gui-container {
+            position: fixed; /* Fix the GUI so it always stays on the screen */
+            top: 20px;
+            right: 20px;
+            z-index: 1001; /* Ensure the GUI is always above the canvas */
+            background: rgba(255, 255, 255, 0.9); /* Add some opacity for readability */
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow to make GUI stand out */
+        }
+    </style>
+</head>
+<body>
+    <div id="my-gui-container"></div>
+    <script type="module" src="Spherical_Harmonics.js"></script>
+</body>
+</html>
