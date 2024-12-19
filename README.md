@@ -10,6 +10,6 @@ The 3D model example can be downloaded for free [here](https://www.turbosquid.co
 
 
 <p align="center">
-  <img src="https://github.com/pepeballesterostel/spherical_harmonics_light/static/img.png" width="700" />
+  <img src="[https://github.com/pepeballesterostel/spherical_harmonics_light/static/img.png](https://github.com/pepeballesterostel/spherical_harmonics_light/blob/9977fe73d082708be2395476b96e8a01e99b8d00/static/img.png)" width="700" />
 </p>
 
